@@ -1,12 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="ru">
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Portfolio</title>
-</head>
-<body>
+  </head>
 
-</body>
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="navtab">
+          <ul class="navtab__links">
+            <li>
+              <a class="navtab__link hover-button" href="#about-me">Обо мне</a>
+            </li>
+            <li>
+              <a class="navtab__link hover-button" href="#stack">Мой стек</a>
+            </li>
+            <li>
+              <a class="navtab__link hover-button" href="#projects">Мои проекты</a>
+            </li>
+            <li>
+              <a class="navtab__link hover-button" href="#contacts">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="greeting">
+        <div class="greeting__container">
+          <div class="greeting__text-container">
+            <h3 class="greeting__info">Анастасия</h3>
+            <h4 class="greeting__info">Фронтенд-разработчик</h4>
+            <h4 class="greeting__info">г. Санкт-Петербург</h4>
+          </div>
+          <img class="greeting__photo" src="./images/my_photo.png" alt="Фотография">
+        </div>
+      </section>
+
+      <section class="about-me" id="about-me">
+        <h2 class="about-me__title title">Обо мне</h2>
+        <div class="about-me__text-container">
+          <p class="about-me__text">Привет! Я из Санкт-Петербурга, у меня высшее экономическое образование. После осознания, что хочу работать 
+            и развиваться в сфере IT, стала больше учиться и в итоге поступила на курс веб-разработки в Яндекс.Практикум.<br>
+            Сейчас я стараюсь большую часть времени посвящать программированию, чтобы стать востребованным специалистом.</p>
+          <p class="about-me__text">Недавно приняла решение поступить в Elbrus Bootcamp, чтобы набраться еще больше опыта работы в команде, разнообразить 
+            свое портфолио новыми проектами, бросить себе вызов в виде ежедневной работы в кампусе с утра до вечера и по выходным, вдохновиться
+            этой атмосферой, найти единомышленников и, конечно, новую работу.</p>
+        </div>
+      </section>
+      <section class="stack" id="stack">
+        <h2 class="stack__title title">Мой стек</h2>
+        <ul class="stack__list">
+          <li class="stack__list-item">HTML</li>
+          <li class="stack__list-item">CSS</li>
+          <li class="stack__list-item">JS</li>
+          <li class="stack__list-item">React</li>
+          <li class="stack__list-item">Git</li>
+          <li class="stack__list-item">Node.js</li>
+          <li class="stack__list-item">mongoDB</li>
+        </ul>
+      </section>
+      <section class="projects" id="projects">
+        <h2 class="projects__title title">Мои проекты</h2>
+        <div class="projects__container">
+          <div class="projects__project-container">
+            <p class="projects__project-info">Проект Mesto — интерактивная страница, куда можно добавлять фотографии, удалять их и ставить лайки</p>
+            <p class="projects__project-info">Стек: HTML CSS JavaScript React Node.js Express.js MongoDB Яндекс.Облако</p>
+            <p class="projects__project-info">Кликни на картинку, чтобы попасть на сайт</p>
+            <a class="projects__project-link" href="https://mesto.nsh.nomoredomains.work" rel="noreferrer" target="_blank">
+              <img class="projects__project-img" src="./images/mesto.png" alt="Mesto">
+            </a>
+            <div class="projects__gh-container">
+              <p class="projects__project-info">Кликни на картинку, чтобы попасть в репозиторий проекта на GitHub</p>
+              <a class="projects__project-gh-link" href="https://github.com/NastiaShh/react-mesto-api-full" rel="noreferrer" target="_blank">
+                <img class="projects__project-gh-img" src="./images/github.png" alt="GitHub">
+              </a>
+            </div>
+          </div>
+          <div class="projects__project-container">
+            <p class="projects__project-info">Movies Explorer - сервис, в котором можно найти фильмы по запросу и сохранить их в личном кабинете</p>
+            <p class="projects__project-info">Стек: HTML CSS JavaScript React Node.js Express.js MongoDB Яндекс.Облако</p>
+            <p class="projects__project-info">Кликни на картинку, чтобы попасть на сайт</p>
+            <a class="projects__project-link" href="https://movies-explorer.nsh.nomoredomains.work/" rel="noreferrer" target="_blank">
+              <img class="projects__project-img" src="./images/movies_explorer.png" alt="Movies Explorer">
+            </a>
+            <div class="projects__gh-container">
+              <p class="projects__project-info">Кликни на картинку, чтобы попасть в репозиторий проекта на GitHub</p>
+              <a class="projects__project-gh-link" href="https://github.com/NastiaShh/movies-explorer-frontend" rel="noreferrer" target="_blank">
+                <img class="projects__project-gh-img" src="./images/github.png" alt="GitHub">
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>
