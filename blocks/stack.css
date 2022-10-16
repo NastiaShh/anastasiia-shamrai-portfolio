@@ -1,0 +1,20 @@
+.stack__list {
+  max-width: 690px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.stack__list-item {
+  width: 90px;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.04em;
+  background: #E8E8E8;
+  border-radius: 10px;
+  padding: 21px 0 22px;
+}
