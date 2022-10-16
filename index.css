@@ -1,0 +1,46 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/Inter_Web/inter.css);
+@import url(./blocks/header.css);
+@import url(./blocks/greeting.css);
+@import url(./blocks/stack.css);
+@import url(./blocks/projects.css);
+
+.page {
+  margin: 0 auto 60px;
+  font-family: 'Inter', sans-serif;
+  max-width: 1200px;
+}
+
+section {
+  margin: 60px auto 0;
+  padding: 0 20px;
+}
+
+.title {
+  margin: 0 0 60px;
+  font-size: 22px;
+  line-height: 27px;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  border-bottom: 1px solid black;
+  padding-bottom: 23px;
+}
+
+.about-me__text {
+  max-width: 1000px;
+}
+
+.contacts__list {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
+  list-style: none;
+}
+
+.hover-button:hover {
+  transition: opacity 0.3s ease-in;
+  opacity: 0.8;
+  cursor: pointer;
+}
